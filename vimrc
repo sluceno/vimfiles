@@ -5,7 +5,7 @@
 set nocompatible
 
 set rtp+=~/.vim/bundle/vundle/
-set rtp+=~/.powerline/powerline/bindings/vim
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 call vundle#rc()
 Bundle 'gmarik/vundle'
 
@@ -19,7 +19,6 @@ let maplocalleader = "."
 " BUNDLES
 " -------
 "
-Bundle 'Lokaltog/powerline'
 Bundle 'rking/ag.vim'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'tpope/vim-surround'
@@ -65,6 +64,7 @@ Bundle 'rizzatti/dash.vim'
 
 " Default color theme
 Bundle 'sjl/badwolf'
+Bundle 'Lokaltog/powerline'
 colorscheme badwolf
 
 Bundle 'wting/rust.vim'
@@ -138,7 +138,13 @@ if has("gui_running")
     set guioptions=aiA
     set mouse=v
 endif
-set guifont=Monaco:h12
+set guifont=Monaco\ for\ Powerline
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
 
 " Autocommands depending on file type
 autocmd FileType ruby,haml,eruby,yaml,html,javascript,sass,cucumber set ai sw=2 sts=2 et
