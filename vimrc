@@ -19,6 +19,7 @@ let maplocalleader = "."
 " BUNDLES
 " -------
 "
+Bundle 'Lokaltog/powerline'
 Bundle 'rking/ag.vim'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'tpope/vim-surround'
