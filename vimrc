@@ -216,6 +216,19 @@ function! RenameFile()
 endfunction
 map <leader>n :call RenameFile()<cr>
 
+function! DeleteFile()
+    let file_to_delete = expand('%')
+    let deletion_confirmation = input('Are you sure you want to delete "'.file_to_delete. '"? ')
+    if deletion_confirmation == 'y' || deletion_confirmation == 'Y'
+        exec ':call delete("'.file_to_delete.'")'
+        redraw!
+        echo 'Deleted successfully!'
+    else
+      redraw!
+    endif
+endfunction
+map <leader>rm :call DeleteFile()<cr>
+
 "--------------
 " RUNNING TESTS
 "--------------
