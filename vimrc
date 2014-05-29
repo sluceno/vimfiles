@@ -181,7 +181,7 @@ vnoremap / /\v
 nnoremap <leader><space> :noh<cr>
 
 " Saving and buffer stuff
-nmap <leader><ESC> :q!<CR>
+" nmap <leader><ESC> :q!<CR>
 nmap <leader>q :wqa!<CR>
 nmap <leader>w :w!<CR>
 
