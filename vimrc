@@ -48,7 +48,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'nono/vim-handlebars'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'pangloss/vim-javascript'
-" Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdtree'
 
 Bundle 'slim-template/vim-slim'
 Bundle 'vim-scripts/ctags.vim'
