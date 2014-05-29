@@ -12,7 +12,7 @@ Bundle 'gmarik/vundle'
 " ----------
 " Leader key
 " ----------
-let mapleader = ","
+let mapleader = "'"
 let maplocalleader = "."
 
 " -------
