@@ -69,6 +69,7 @@ colorscheme badwolf
 
 Bundle 'wting/rust.vim'
 
+Bundle 'terryma/vim-multiple-cursors'
 " ------------
 " VIM SETTINGS
 " ------------
