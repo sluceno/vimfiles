@@ -174,7 +174,7 @@ inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
-imap jk <ESC>
+" imap jk <ESC>
 nnoremap ; :
 
 " Search
