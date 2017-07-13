@@ -198,6 +198,7 @@ nmap <leader>D :bufdo bd<CR>
 
 " Splits
 nnoremap <leader>v :vs<CR> <C-w>l
+nnoremap <leader>h :sp<CR> <C-w>j
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
