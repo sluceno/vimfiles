@@ -70,6 +70,8 @@ colorscheme badwolf
 Bundle 'wting/rust.vim'
 
 Bundle 'terryma/vim-multiple-cursors'
+
+Plugin 'fatih/vim-go'
 " ------------
 " VIM SETTINGS
 " ------------
@@ -126,6 +128,9 @@ set formatoptions=n
 set colorcolumn=79
 set tw=79
 set t_Co=256
+set re=1
+set tags+=tags,.tags
+let g:go_fmt_command = "goimports"
 "set clipboard=unnamed
 
 if has("gui_running")
